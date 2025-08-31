@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--nav bar-->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-success fixed-top">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Offcanvas dark navbar</a> -->
+            <a class="navbar-brand" href="#">
+                <img src="./images.png" alt="Logo" width="60" height="40" class="d-inline-block align-text-center">
+               Modern Academy For Engineering & Technology
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact Us</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                    <form class="d-flex " role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section-->
+    <section class="background-section d-flex align-items-center justify-content-center text-center">
+        <div class="container text-white">
+            <h1 class="display-4 fw-bold">Welcome to Modern Academy For Engineering & Technology</h1>
+            <p class="lead">Learn new skills online with top instructors.</p>
+            <a href="#courses" class="btn btn-success btn-lg">Browse Courses</a>
+        </div>
+    </section>
+
+
+    <!--course catigories-->
+    <section class="py-5 text-center" id="courses">
+        <div class="container">
+            <h2 class="mb-4 text-success">Course Categories</h2>
+            <div class="row g-4">
+
+                <!-- Category 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm p-4">
+                        <img src="https://cdn-icons-png.flaticon.com/512/919/919852.png" alt="Programming Icon" width="60"
+                            class="mx-auto mb-3">
+                        <h4>Programming Using Python</h4>
+                        <p>Learn coding with hands-on projects and expert instructors.</p>
+                    </div>
+                </div>
+    
+                <!-- Category 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm p-4">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Design Icon" width="60"
+                            class="mx-auto mb-3">
+                        <h4>Design</h4>
+                        <p>Master graphic and UI/UX design skills for real-world use.</p>
+                    </div>
+                </div>
+    
+                <!-- Category 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm p-4">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2721/2721292.png" alt="Business Icon" width="60"
+                            class="mx-auto mb-3">
+                        <h4>Business</h4>
+                        <p>Grow your career with top courses in management & finance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Featured Courses-->
+    <section class="text-center py-5" id="Featured">
+        <div class="container">
+            <h2 class="mb-4 text-success">Featured Courses</h2>
+            <div class="row g-4">
+                <!--card 1-->
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <img src="https://cdn-icons-png.flaticon.com/512/919/919852.png" alt="Programming Icon"
+                                width="60" class="mb-3">
+                            <h6 class="text-success">Course Name:</h6>
+                            <p class="text-dark">Programming Using Python</p>
+                            <h6 class="text-success">Instructor Name:</h6>
+                            <p class="text-dark">Islam Reda</p>
+                            <button class="btn btn-success btn-lg">Enroll</button>
+                        </div>
+                    </div>
+                </div>
+                <!--card 2-->
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Design Icon" width="60"
+                                class="mb-3">
+                            <h6 class="text-success">Course Name:</h6>
+                            <p class="text-dark">Design</p>
+                            <h6 class="text-success">Instructor Name:</h6>
+                            <p class="text-dark">Amr Mohamed</p>
+                            <button class="btn btn-success btn-lg">Enroll</button>
+                        </div>
+                    </div>
+                </div>
+                <!--card 3-->
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2721/2721292.png" alt="Business Icon"
+                                width="60" class="mb-3">
+                            <h6 class="text-success">Course Name:</h6>
+                            <p class="text-dark">Business</p>
+                            <h6 class="text-success">Instructor Name:</h6>
+                            <p class="text-dark">Ali Gamal</p>
+                            <button class="btn btn-success btn-lg">Enroll</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Student Feedbacks Section with Carousel -->
+    <section id="feedback" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center text-success">Student Feedback</h2>
+            <div id="feedbackCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3" width="80"
+                                height="80" alt="Student Photo">
+                            <h5>Ibrahim mahmoud</h5>
+                            <p class="text-muted">"Great platform! The courses are well-structured and easy to follow."</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-3"
+                                width="80" height="80" alt="Student Photo">
+                            <h5>Sarah Ahmed</h5>
+                            <p class="text-muted">"I learned so much in a short time. Highly recommended!"</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="https://randomuser.me/api/portraits/men/65.jpg" class="rounded-circle mb-3" width="80"
+                                height="80" alt="Student Photo">
+                            <h5>Mohamed Ali</h5>
+                            <p class="text-muted">"The instructors are very helpful and the content is up-to-date."</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev bg-success" type="button" data-bs-target="#feedbackCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next bg-success" type="button" data-bs-target="#feedbackCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section with 3-4 Questions (Accordion) -->
+
+    <section id="faq" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center text-success">FAQ</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                            aria-expanded="true" aria-controls="collapse1">
+                            How do I enroll in a course?
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Click the "Enroll" button on the course you want to join and follow the instructions.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            Are the courses self-paced?
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, you can learn at your own pace and revisit materials anytime.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            Will I get a certificate after completion?
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, you will receive a certificate after successfully completing a course.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            How can I contact support?
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            You can contact us via email or phone listed in the contact section below.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer  -->
+
+    <footer class="bg-success text-white pt-5 pb-3" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- About -->
+                <div class="col-md-4 mb-4">
+                    <h5>About Modern Academy</h5>
+                    <p>Modern academy was established on 09/12/1993 in accordance with the ministerial decree no. 1570
+                        The academy graduate is awarded a bachelor degree in the due major approved from His honor the higher education
+                        minister.   
+                        Bachelor of Science in computer science in accordance with the ministerial decree no. 1570 dated 09/12/1993 .</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#courses" class="text-white text-decoration-none">Courses</a></li>
+                        <li><a href="#Featured" class="text-white text-decoration-none">Featured</a></li>
+                        <li><a href="#faq" class="text-white text-decoration-none">FAQ</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-envelope"></i> www.modern-academy.edu.eg</li>
+                        <li><i class="bi bi-telephone"></i> Tel: (+202) 2 7029850 / 27024219 / 27036231 / 25182528</li>
+                        <li><i class="bi bi-geo-alt"></i> Cairo, Egypt</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <small>&copy; 2025 Modern Academy. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+ 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

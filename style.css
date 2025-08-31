@@ -1,0 +1,10 @@
+.background-section{
+    position: relative;
+    background: url('./images1.jpeg') no-repeat center center/cover;
+    min-height: 100vh;
+    padding-top: 70px; /* علشان الـ navbar الثابت */
+}
+.accordion-button:hover {
+    background-color:  #198754; /* رمادي فاتح */
+    color: #fff; /* أزرق زي primary */
+  }
